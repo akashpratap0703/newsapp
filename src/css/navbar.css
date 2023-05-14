@@ -2,7 +2,7 @@
     padding: 10px 10%;
  }
 
- .container nav{
+ nav{
     display: flex;
     align-items: center;
     justify-content:space-between;
