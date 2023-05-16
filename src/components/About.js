@@ -1,4 +1,4 @@
-import React,{useState} from 'react'
+import React from 'react'
 import '../css/about.css'
 export default function About() {
     var tablinks = document.getElementsByClassName("tab-links");
@@ -21,7 +21,7 @@ export default function About() {
         <div className="container">
             <div className="row">
                 <div className="about-col-1">
-                    <img src={require("../images/Akash.jpg")}></img>
+                    <img src={require("../images/Akash.jpg")} alt="img"/>
                 </div>
                 <div className="about-col-2">
                     <h1 className="sub-title">About Me</h1>
