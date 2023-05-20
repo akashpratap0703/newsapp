@@ -1,0 +1,47 @@
+.timeline {
+    margin: 0 auto;
+    max-width: 1000px;
+    position: relative;
+}
+.journey1 {
+    background-color: inherit;
+    padding: 10px 40px;
+    position: relative;
+    width: 50%;
+}
+.sub-title1{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 3rem;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    left: 2%;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    max-width: 100%;
+    padding: 1rem;
+    left: 60%;
+}
+.card-body{
+    margin-left: 6px;
+}
+.card-subtitle{
+    margin-top: 0.2rem;
+    font-weight: 700;
+}
+.card-journey{
+    width: 25rem;
+    background-color: beige;
+    border-radius: 0.5rem;
+    height: 7rem;
+}

@@ -4,7 +4,7 @@ import '../css/header.css'
 
 export default function Header() {
   return (
-    <div className='header'>
+    <div id='header'>
       <NavBar/>
       <div className='header-text'>
         <p>UI/UX Designer</p>

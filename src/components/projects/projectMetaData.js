@@ -19,6 +19,16 @@ var project =[{
     isDisableCode:false,
     isDisableVisit:true,
 },{
+    label:"ML,python",
+    name:"Date Prediction Model",
+    description:"A Supervised learning model that learns from past data Model which uses support vectorregression to predict the payment dates of the invoices and also categorizes them into several buckets based on the no. of days delayed",
+    techStack:"Python,Pandas",
+    img:"./projectImg/date_prediction.jpeg",
+    codeurl:"",
+    visiturl:"",
+    isDisableCode:false,
+    isDisableVisit:true,
+},{
     label:"Reactjs,java",
     name:"Invoice Management Application",
     description:"React Based application which is integrated with the date predication model. It provides functionalities to add, edit, delete and search the data in the loaded grid using sql queries and java in backend.",

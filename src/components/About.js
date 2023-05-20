@@ -17,7 +17,7 @@ export default function About() {
      }
   return (
     <div>
-      <div className="about">
+      <div id="about">
         <div className="container">
             <div className="row">
                 <div className="about-col-1">
