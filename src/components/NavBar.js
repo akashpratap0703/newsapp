@@ -15,7 +15,7 @@ export default function NavBar() {
     <div>
     <div className="container">
     <nav>
-        <img src="./logo192.png" alt="img" className="logo"/>
+        <img src="./namelogo.png" alt="img" className="logo"/>
         <ul id="sidemenu">
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>

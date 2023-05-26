@@ -1,47 +1,111 @@
-.timeline {
-    margin: 0 auto;
-    max-width: 1000px;
-    position: relative;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: aliceblue;
 }
-.journey1 {
-    background-color: inherit;
-    padding: 10px 40px;
-    position: relative;
-    width: 50%;
-}
-.sub-title1{
-    font-size: 60px;
-    font-weight: 600;
-    color: #fff;
-    margin-left: 3rem;
-}
-.left {
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    max-width: 100%;
-    padding: 1rem;
-    left: 2%;
+div {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.right {
+.sub-title-timeline{
+  font-size: 54px;
+  margin-left: 11rem;
+  font-weight: 600;
+  color: #fff;
+}
+
+.container-timeline{
+    min-height: 100vh;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    height: 100%;
-    max-width: 100%;
-    padding: 1rem;
-    left: 60%;
+    align-items: center;
+    justify-content: center;
 }
-.card-body{
-    margin-left: 6px;
+
+.timeline{
+    width: 80%;
+    height: 80%;
+    max-width: 800px;
+    margin:0 auto;
+    position: relative;
 }
-.card-subtitle{
-    margin-top: 0.2rem;
-    font-weight: 700;
+.timeline-contents ul{
+    list-style: none;
 }
-.card-journey{
-    width: 25rem;
-    background-color: beige;
-    border-radius: 0.5rem;
-    height: 7rem;
+.timeline-contents ul li{
+    padding: 20px;
+    background-color: rgb(195, 58, 122);
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.timeline-card h1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 10px;
+}
+
+.timeline-card p{
+    font-size: 16px;
+    line-height:30px;
+    font-weight: 300;
+}
+
+@media screen and (min-width: 768px) {
+    .timeline:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 2px;
+        height: 100%;
+        background-color: gray;
+      }
+      .timeline ul li {
+        width: 50%;
+        position: relative;
+        margin-bottom: 50px;
+      }
+      .timeline ul li:nth-child(odd) {
+        float: left;
+        clear: right;
+        transform: translateX(-30px);
+        border-radius: 20px 0px 20px 20px;
+      }
+      .timeline ul li:nth-child(even) {
+        float: right;
+        clear: left;
+        transform: translateX(30px);
+        border-radius: 0px 20px 20px 20px;
+      }
+      .timeline ul li::before {
+        content: "";
+        position: absolute;
+        height: 20px;
+        width: 20px;
+        border-radius: 50%;
+        background-color: gray;
+        top: 0px;
+      }
+      .timeline ul li:nth-child(odd)::before {
+        transform: translate(50%, -50%);
+        right: -30px;
+      }
+      .timeline ul li:nth-child(even)::before {
+        transform: translate(-50%, -50%);
+        left: -30px;
+      }
+      .timeline-content .date {
+        position: absolute;
+        top: -30px;
+      }
+      .timeline ul li:hover::before {
+        background-color: aqua;
+      }
 }
