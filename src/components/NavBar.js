@@ -20,7 +20,7 @@ export default function NavBar() {
             <li><a href="#header">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#journey">Journey</a></li>
+            <li><a href="#timeline">Journey</a></li>
             <li><a href="#contact">Contact</a></li>
             <i className='fas fa-times' onClick={()=>closemenu()}></i>
         </ul>
