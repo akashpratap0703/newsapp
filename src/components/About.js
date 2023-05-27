@@ -21,7 +21,7 @@ export default function About() {
         <div className="container">
             <div className="row">
                 <div className="about-col-1">
-                    <img src={require("../images/Akash.jpg")} alt="img"/>
+                    <img src={require("../images/profile.jpg")} alt="img"/>
                 </div>
                 <div className="about-col-2">
                     <h1 className="sub-title">About Me</h1>
@@ -33,9 +33,10 @@ export default function About() {
                     </div>
                     <div className="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>UI?UX</span><br></br>Designing Web/App interfaces</li>
-                            <li><span>Web Development</span><br></br>Web App Development</li>
-                            <li><span>App Development</span><br></br>Designing Web/App interfaces</li>
+                            <li><span>Frontend</span><br></br>Create Web interfaces using HTML,CSS,Extjs,Reactjs</li>
+                            <li><span>Backend</span><br></br>J2EE,Spring,Struts,Hibernate,SpringBoot</li>
+                            <li><span>Database</span><br></br>Snowflake,MySql</li>
+                            <li><span>IDE/Tools</span><br></br>VS Code,Eclipse,Git,Postman</li>
                         </ul>
                     </div>
                     <div className="tab-contents" id="experience">

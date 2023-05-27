@@ -4,23 +4,42 @@
     color: #fff;
 }
 .card-title{
-    color:red;
-    font-weight: 700;
-    text-decoration: underline;
+    color:rgb(235, 76, 76);
+    font-weight: 800;
 }
 .card-text{
     font-weight: 500;
+    color:#fff;
 }
 .card{
-    background-color: beige;
+    background-color: #575656;
     transition: background 0.5s, transform 0.5s;
 }
+
+.mx-3{
+    margin-left: 4rem!important;
+}
 .card:hover{
-    background: #ff004f;
+    background:black;
     transform: translateY(-10px);
 }
-@media only screen and (max-width: 600px){
+.card-body a{
+    background: black;
+}
+@media only screen and (max-width: 425px){
     .sub-title{
         font-size: 40px;        
+    }
+    .mx-3{
+        margin-top: 6px;
+    }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .sub-title{
+        font-size: 40px;        
+    }
+    .mx-3{
+        margin-top: 6px;
     }
 }

@@ -7,7 +7,7 @@ export default function Header() {
     <div id='header'>
       <NavBar/>
       <div className='header-text'>
-        <p>UI/UX Designer</p>
+        <p>Software Developer</p>
         <h1>Hi, I'm <span>Akash</span><br></br>Pratap From India</h1>
       </div>
     </div>

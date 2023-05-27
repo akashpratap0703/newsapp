@@ -6,8 +6,8 @@ var project =[{
     img:"./projectImg/textUtils.png",
     codeurl:"https://github.com/akashpratap0703/textUtil",
     visiturl:"https://akashpratap0703.github.io/textUtil/",
-    isDisableCode:false,
-    isDisableVist:false,
+    isDisableCode:'',
+    isDisableVist:'',
 },{
     label:"Reactjs",
     name:"News App",
@@ -16,8 +16,8 @@ var project =[{
     img:"./projectImg/newsApp.png",
     codeurl:"https://github.com/akashpratap0703/newsapp",
     visiturl:"",
-    isDisableCode:false,
-    isDisableVisit:true,
+    isDisableCode:'',
+    isDisableVisit:"disabled",
 },{
     label:"ML,python",
     name:"Date Prediction Model",
@@ -26,8 +26,8 @@ var project =[{
     img:"./projectImg/date_prediction.jpeg",
     codeurl:"",
     visiturl:"",
-    isDisableCode:false,
-    isDisableVisit:true,
+    isDisableCode:'',
+    isDisableVisit:"disabled",
 },{
     label:"Reactjs,java",
     name:"Invoice Management Application",
@@ -36,8 +36,8 @@ var project =[{
     img:"./projectImg/invoice.png",
     codeurl:"",
     visiturl:"",
-    isDisableCode:false,
-    isDisableVisit:true,
+    isDisableCode:'',
+    isDisableVisit:"disabled",
 }]
 
 export default project;

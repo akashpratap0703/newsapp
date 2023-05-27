@@ -1,7 +1,13 @@
 #timeline{
     position:relative;
-    max-width: 1200px;
+    max-width: 1200px;;
     margin: 100px auto;
+}
+#journey .sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+    margin-left: 11rem
 }
 
 .container-timeline{
@@ -37,7 +43,7 @@
 }
 .text-box{
     padding: 20px 30px;
-    background: #fff;
+    background: #575656;
     position: relative;
     border-radius: 6px;
     font-size: 15px;
@@ -65,8 +71,8 @@
     content: '';
     position: absolute;
     width: 6px;
-    height: 100%;
-    background: #fff;
+    height: 90%;
+    background: #575656;
     top: 0;
     left: 50%;
     margin-left: -3px;
@@ -84,10 +90,20 @@
 }
 .text-box h2{
     font-weight: 600;
+    color:rgb(235, 76, 76);
 }
+.text-box h3{
+    font-weight: 200;
+    color:rgb(236, 126, 126);
+}
+.text-box p{
+  color:white;
+}
+
 .text-box small{
     display: inline-block;
     margin-bottom: 15px;
+    color: white;
 }
 .left-container-arrow{
     height: 0;
@@ -97,7 +113,7 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-left: 15px solid #fff;
+    border-left: 15px solid #575656;
     right: -15px;
 }
 
@@ -109,11 +125,11 @@
     z-index: 1;
     border-top: 15px solid transparent;
     border-bottom: 15px solid transparent;
-    border-right: 15px solid #fff;
+    border-right: 15px solid #575656;
     left: -15px;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 425px){
     #timeline{
         margin: 50px auto;
 }
@@ -138,13 +154,66 @@
         left: 10px;
     }
     .left-container-arrow{
-        border-right: 15px solid #fff;
+        border-right: 15px solid #575656;
         border-left: 0;
         left: -15px; 
     }
     .right-container-arrow{
-        border-right: 15px solid #fff;
+        border-right: 15px solid #575656;
         border-left: 0;
         right: 15px;        
     }
+    #journey .sub-title{
+      margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+  #timeline{
+      margin: 50px auto;
+}
+  #timeline::after{
+      left: 31px;
+  }
+  .container-timeline{
+      width: 100%;
+      padding-left: 80px;
+      padding-right: 25px;
+  }
+  .text-box{
+      font-size: 13px;
+  }
+  .text-box small{
+      margin-bottom: 10px;
+  }
+  .right-container{
+      left: 0;
+  }
+  .left-container img, .right-container img{
+      left: 10px;
+  }
+  .left-container-arrow{
+      border-right: 15px solid #575656;
+      border-left: 0;
+      left: -15px; 
+  }
+  .right-container-arrow{
+      border-right: 15px solid #575656;
+      border-left: 0;
+      right: 15px;        
+  }
+  #journey .sub-title{
+    margin-left: 1rem;
+}
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px){
+  #journey .sub-title{
+    margin-left: 7rem;
+  }
+  #timeline {
+    position: relative;
+    max-width: 900px;
+    margin: 100px auto;
+  }
 }

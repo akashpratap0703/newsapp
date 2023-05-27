@@ -65,8 +65,26 @@ form .btn2{
     margin-top: -40px;
     display: block;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 425px){
    .contact-left,.contact-right{
     flex-basis: 100%;
    } 
 }
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+    .contact-left,.contact-right{
+     flex-basis: 100%;
+    } 
+ }
+
+ @media only screen and (max-width: 1024px) and (min-width: 769px){
+    .sub-title {
+        font-size: 54px;
+    }
+    .contact-left{
+        flex-basis: 42%; ;
+    }
+    .contact-right{
+        flex-basis:58% ;
+    }
+  }

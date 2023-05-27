@@ -1,6 +1,6 @@
- .container{
-    padding: 10px 10%;
- }
+.container-nav{
+   padding: 10px 10%;
+}
 html{
    scroll-behavior: smooth;
 }
@@ -20,6 +20,7 @@ html{
     display: inline-block;
     list-style: none;
     margin: 10px 20px;
+    
  }
 
  nav ul li a{
@@ -46,14 +47,16 @@ html{
 nav .fas{
    display: none;
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 425px){
+   
    nav .fas{
       display: block;
       font-size: 25px;
       color: white;
+
    }
    nav ul{
-      background: #ff004f;
+      background-color: #575656;
       position: fixed;
       top: 0;
       right: -200px;
@@ -73,4 +76,45 @@ nav .fas{
       left: 25px;
       cursor: pointer;
    }
+   .logo {
+      width: 133px;
+      height: 70px;
+      margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 768px) and (min-width: 426px){
+   
+   nav .fas{
+      display: block;
+      font-size: 25px;
+      color: white;
+
+   }
+   nav ul{
+      background-color: #575656;
+      position: fixed;
+      top: 0;
+      right: -200px;
+      width: 200px;
+      height: 100vh;
+      padding-top: 50px;
+      z-index: 2;
+      transition: right 0.5s;
+   }
+   nav ul li{
+      display: block;
+      margin: 25px;
+   }
+   nav ul .fas{
+      position: absolute;
+      top: 25px;
+      left: 25px;
+      cursor: pointer;
+   }
+   .logo {
+      width: 133px;
+      height: 70px;
+      margin-top: 20px;
+  }
 }

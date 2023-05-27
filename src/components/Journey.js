@@ -2,14 +2,20 @@ import React from 'react'
 import '../css/journey.css'
 export default function Journey() {
   return (
-    <div>
+    <div id='journey'>
+      <h1 className="sub-title">Journey</h1>
       <div id='timeline'>
-
+      
         <div className='container-timeline left-container'>
+        
           <img src={require("../images/highradius.jpg")} alt="img"/>
           <div className='text-box'>
             <h2>HighRadius Technologies</h2>
-            <small>2022 - Present</small>
+            <h3>Software Intern</h3>
+            <small>2021 - 2022</small>
+            <p>Working as Slimfast Team<br/>- Create web screen for consultant which help in on boarding customer faster</p>
+            <h3>Associate Software Developer</h3>
+            <small>2022 - present</small>
             <p>Working as Associate Software Developer in Core Platform.</p>
             <span className='left-container-arrow'></span>
           </div>
